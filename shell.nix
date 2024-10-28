@@ -1,7 +1,7 @@
 let
   nixpkgs = fetchTarball "https://github.com/NixOS/nixpkgs/tarball/nixos-unstable";
   pkgs = import nixpkgs {
-    config = {};
+    config = {allowUnfree = true;};
     overlays = [];
   };
 in
@@ -10,6 +10,8 @@ in
       cowsay
       lolcat
       gobuster
+      burpsuite
+      insomnia
     ];
 
     GREETING = "Let's find some flags...";
