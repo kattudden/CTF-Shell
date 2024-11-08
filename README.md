@@ -7,3 +7,6 @@ Nix CTF Environment
 - burpsuite
 - gobuster
 - insomnia
+- Python3.12
+  - Python requests
+  - Python uv
