@@ -12,6 +12,9 @@ in
       gobuster
       burpsuite
       insomnia
+      python312Packages.python
+      python312Packages.uv
+      python312Packages.requests
     ];
 
     GREETING = "Let's find some flags...";
