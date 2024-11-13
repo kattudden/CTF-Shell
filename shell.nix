@@ -15,6 +15,7 @@ in
       python312Packages.python
       python312Packages.uv
       python312Packages.requests
+      php
     ];
 
     GREETING = "Let's find some flags...";
